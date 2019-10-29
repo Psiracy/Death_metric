@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dummy : MonoBehaviour
+public class DummyTheSecond : MonoBehaviour
 {
     DeathMetric deathMetric;
 
@@ -10,13 +10,12 @@ public class Dummy : MonoBehaviour
     {
         deathMetric = DeathMetric.Instance;
     }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             deathMetric.SaveOnDeath(transform.position);
-            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
 }

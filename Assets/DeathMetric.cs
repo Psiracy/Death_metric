@@ -18,20 +18,33 @@ public class DeathMetric : MonoBehaviour
     bool dead;
     bool newSave = true;
 
-    // Start is called before the first frame update
-    void Start()
+    public static DeathMetric Instance { get; private set; }
+
+    void Awake()
     {
-        if (!Directory.Exists("CurrentSession"))
+        //singleton
+        if (Instance == null)
         {
-            Directory.CreateDirectory("CurrentSession");
-        }
-        DontDestroyOnLoad(gameObject);
-        if (newSave == true)
-        {
-            if (File.Exists("CurrentSession/Death.death"))
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            //save
+            if (!Directory.Exists("CurrentSession"))
             {
-                File.Delete("CurrentSession/Death.death");
+                Directory.CreateDirectory("CurrentSession");
             }
+
+            if (newSave == true)
+            {
+                if (File.Exists("CurrentSession/Death.death"))
+                {
+                    File.Delete("CurrentSession/Death.death");
+                }
+            }
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
         }
     }
 

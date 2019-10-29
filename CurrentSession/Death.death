@@ -1,9 +1,2 @@
-{"position":{"x":0.0,"y":0.0,"z":0.0},"timeOfDeath":4.797077655792236,"scene":"SampleScene"}
-{"position":{"x":-3.2200000286102297,"y":0.0,"z":0.0},"timeOfDeath":12.30961799621582,"scene":"SampleScene"}
-{"position":{"x":-3.2200000286102297,"y":4.019999980926514,"z":0.0},"timeOfDeath":16.454082489013673,"scene":"SampleScene"}
-{"position":{"x":-3.2200000286102297,"y":4.019999980926514,"z":0.0},"timeOfDeath":16.706642150878908,"scene":"SampleScene"}
-{"position":{"x":-3.2200000286102297,"y":4.019999980926514,"z":0.0},"timeOfDeath":16.874826431274415,"scene":"SampleScene"}
-{"position":{"x":-3.2200000286102297,"y":4.019999980926514,"z":0.0},"timeOfDeath":17.027421951293947,"scene":"SampleScene"}
-{"position":{"x":2.700000047683716,"y":4.019999980926514,"z":0.0},"timeOfDeath":20.03090476989746,"scene":"SampleScene"}
-{"position":{"x":2.700000047683716,"y":4.019999980926514,"z":0.0},"timeOfDeath":20.198820114135743,"scene":"SampleScene"}
-{"position":{"x":2.700000047683716,"y":4.019999980926514,"z":0.0},"timeOfDeath":20.332775115966798,"scene":"SampleScene"}
+{"position":{"x":0.5299999713897705,"y":0.0,"z":10.079999923706055},"timeOfDeath":9.000014305114746,"scene":"SampleScene"}
+{"position":{"x":0.0,"y":0.0,"z":-5.309999942779541},"timeOfDeath":13.05215835571289,"scene":"SampleScene 1"}
